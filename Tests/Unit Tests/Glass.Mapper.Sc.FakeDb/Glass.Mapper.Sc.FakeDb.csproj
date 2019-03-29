@@ -79,6 +79,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\Glass.Mapper.Tests\NUnitSetup.cs">
+      <Link>NUnitSetup.cs</Link>
+    </Compile>
     <Compile Include="AssertHtml.cs" />
     <Compile Include="Caching\CacheAlwaysOnFixture.cs" />
     <Compile Include="Caching\CacheFixtures.cs" />
